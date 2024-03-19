@@ -57,7 +57,8 @@ The Elder Patient Tracking System comprises the following components:
 ## Demo Video and Test Images
 [Demo Video](https://github.com/Ahamedthaiyub/CareFall/raw/main/assets/98688617/b6d2a14f-ef18-452a-837c-6c03bbb32154)
 
-[![Demo Video](https://user-images.githubusercontent.com/98688617/b6d2a14f-ef18-452a-837c-6c03bbb32154.png)](https://github.com/Ahamedthaiyub/CareFall/issues/2#issue-2195708779)
+[![Demo Video](https://github.com/Ahamedthaiyub/CareFall/raw/main/assets/98688617/372626a3-703d-4bc8-92a0-02fd83b3771a.png)](https://github.com/Ahamedthaiyub/CareFall/raw/main/assets/98688617/372626a3-703d-4bc8-92a0-02fd83b3771a)
+
 
 ## Conclusion
 The Elder Patient Tracking System offers an innovative and reliable solution for monitoring and detecting falls among elderly individuals. By leveraging advanced technologies and comprehensive analysis, the system significantly enhances the safety and well-being of residents in retirement community settings.
