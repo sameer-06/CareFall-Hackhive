@@ -62,6 +62,19 @@ The Elder Patient Tracking System comprises the following components:
   ![00091_00016](00091_00016.gif)
   ![00091_00016](00091_00031.gif)
 
+  ## Web Pages :
+
+
+  <div style="display: flex; justify-content: center;">
+    <img src="WhatsApp%20Image%202024-03-20%20at%2012.52.07%20AM.jpeg" alt="WhatsApp Image 2024-03-20 at 12.52.07 AM" style="width: 400px; margin-right: 10px;">
+    <img src="WhatsApp%20Image%202024-03-20%20at%2012.52.08%20AM%20(1).jpeg" alt="WhatsApp Image 2024-03-20 at 12.52.08 AM (1)" style="width: 400px; margin: 0 10px;">
+    <img src="WhatsApp%20Image%202024-03-20%20at%2012.52.08%20AM.jpeg" alt="WhatsApp Image 2024-03-20 at 12.52.08 AM" style="width: 400px; margin-left: 10px;">
+</div>
+
+
+## Link: ---------
+  
+
 
 ## Conclusion
 The Elder Patient Tracking System provides an innovative and reliable solution for monitoring and detecting falls among elderly individuals. By leveraging advanced technologies and comprehensive analysis, the system significantly enhances the safety and well-being of residents in retirement community settings.
