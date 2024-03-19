@@ -60,6 +60,7 @@ The Elder Patient Tracking System comprises the following components:
   ## Test image and How it works 
 
   ![00091_00016](00091_00016.gif)
+  ![00091_00016](00091_00031.gif)
 
 
 ## Conclusion
