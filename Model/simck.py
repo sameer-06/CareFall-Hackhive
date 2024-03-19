@@ -1,5 +1,6 @@
 from serial import Serial, SerialException
 import time
+from one.api import ONE
 
 # Define the serial port and baud rate
 serial_port = '/dev/ttyS0'  # Assuming the SIM900A module is connected to the GPIO serial port
