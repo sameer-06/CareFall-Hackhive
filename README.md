@@ -74,8 +74,18 @@ The Elder Patient Tracking System comprises the following components:
     <img src="WhatsApp%20Image%202024-03-20%20at%2012.52.08%20AM.jpeg" alt="WhatsApp Image 2024-03-20 at 12.52.08 AM" style="width: 400px; margin-left: 10px;">
 </div>
 
+## Local Development
 
-## Link: ---------
+To run the Elder Patient Tracking System locally for development or testing purposes, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Ensure all required dependencies mentioned in the "Dependencies Installation" section are installed in your environment.
+3. Prepare a small dataset containing sample images or videos for testing the fall detection system.
+4. Run the `simck.py` script to initialize the fall detection system locally. Make sure you have a camera connected and accessible.
+5. Monitor the output to observe real-time fall detection alerts on your local machine.
+6. Optionally, you can simulate SMS alerts by configuring a virtual GSM module or by modifying the code to print messages instead.
+
+
   
 
 
