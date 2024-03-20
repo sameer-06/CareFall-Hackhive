@@ -96,5 +96,5 @@ The Elder Patient Tracking System provides an innovative and reliable solution f
 This project is licensed under the MIT License.
 
 ## Contributors
-- Jeyasundar R (CSE)
-- Ahamed Thaiyub A (CSE)
+-Ahamed Thaiyub A
+-Jeyasundar R
