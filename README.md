@@ -1,13 +1,13 @@
-
 # CareFall - Enhancing Elderly Care with the Power of Intel oneAPI
 
 ![Screenshot](img/Screenshot%202024-03-20%20010923.png)
 
-
 ## Introduction
+
 The Elder Patient Tracking System (EPTS) is a sophisticated solution designed to monitor and detect instances of falls among elderly residents in retirement communities. Leveraging deep learning techniques and real-time video analysis, the system offers timely alerts to caregivers, ensuring swift intervention and assistance in case of fall events.
 
 ## System Components
+
 The Elder Patient Tracking System comprises the following components:
 
 1. **Training Module (`train.py`)**:
@@ -32,6 +32,7 @@ The Elder Patient Tracking System comprises the following components:
    - **Usage**: Execute the `evaluate.py` script to assess the accuracy and other performance metrics of the trained model.
 
 ## System Setup
+
 1. **Dependencies Installation**:
    - Ensure all required dependencies are installed in your environment. Refer to the Dependencies section for details.
 
@@ -48,6 +49,7 @@ The Elder Patient Tracking System comprises the following components:
    - Deploy the trained model and related modules (`simck.py`, `camra.py`) in the target environment, such as a retirement community facility.
 
 ## Running the System
+
 1. **Fall Detection Module**:
    - Execute the `simck.py` script to initialize the fall detection system.
    - Ensure that the camera device is connected and accessible.
@@ -58,21 +60,13 @@ The Elder Patient Tracking System comprises the following components:
 
 [![Demo Video](https://github.com/Ahamedthaiyub/CareFall/raw/main/assets/98688617/372626a3-703d-4bc8-92a0-02fd83b3771a.png)](https://github.com/Ahamedthaiyub/CareFall/raw/main/assets/98688617/372626a3-703d-4bc8-92a0-02fd83b3771a)
 
-  [Demo Video](https://github.com/Ahamedthaiyub/CareFall/raw/main/assets/98688617/b6d2a14f-ef18-452a-837c-6c03bbb32154)
-
-  
-  [Demo Video](https://github.com/Ahamedthaiyub/CareFall-Hackhive/assets/98688617/8ef93350-e852-430e-834c-e81eebd73321)
-
-
-
-
-
-
-## Section files 
+## Section Files 
 
 ### Section 1: Fall Detection and SMS Notification
 - **File(s):** `sec1.txt`
 - **Description:** This section focuses on implementing normal fall detection prediction and sending SMS notifications to a designated module.
+
+[![Demo Video](https://github.com/Ahamedthaiyub/CareFall/raw/main/assets/98688617/372626a3-703d-4bc8-92a0-02fd83b3771a.png)](https://github.com/Ahamedthaiyub/CareFall-Hackhive/assets/98688617/8ef93350-e852-430e-834c-e81eebd73321)
 
 ### Section 2: Custom Image Processing
 - **File(s):** *Additional files uploaded*
@@ -82,27 +76,24 @@ The Elder Patient Tracking System comprises the following components:
 - **File(s):** *Additional files uploaded*
 - **Description:** Discusses the integration of OpenPose for pose detection and lie detection in video streams. It covers challenges faced and the solutions implemented.
 
+## Output:
+<img src="WhatsApp Image 2024-03-22 at 12.54.34 AM.jpeg" alt="WhatsApp Image 2024-03-20 at 12.52.07 AM" style="width: 400px; margin-right: 10px;">
+
 ### Section 4: Full Model Deployment
 - **File(s):** *Additional files uploaded*
 - **Description:** This section marks the deployment of the full model. It likely incorporates all the functionalities developed in previous sections and may include optimizations or additional features.
 
+## Test Image and How it Works 
 
+![00091_00016](00091_00016.gif)
+![00091_00016](00091_00031.gif)
 
+## Web Pages :
 
-
-  
-  ## Test image and How it works 
-
-  ![00091_00016](00091_00016.gif)
-  ![00091_00016](00091_00031.gif)
-
-  ## Web Pages :
-
-
-  <div style="display: flex; justify-content: center;">
-    <img src="WhatsApp%20Image%202024-03-20%20at%2012.52.07%20AM.jpeg" alt="WhatsApp Image 2024-03-20 at 12.52.07 AM" style="width: 400px; margin-right: 10px;">
-    <img src="WhatsApp%20Image%202024-03-20%20at%2012.52.08%20AM%20(1).jpeg" alt="WhatsApp Image 2024-03-20 at 12.52.08 AM (1)" style="width: 400px; margin: 0 10px;">
-    <img src="WhatsApp%20Image%202024-03-20%20at%2012.52.08%20AM.jpeg" alt="WhatsApp Image 2024-03-20 at 12.52.08 AM" style="width: 400px; margin-left: 10px;">
+<div style="display: flex; justify-content: center;">
+  <img src="WhatsApp%20Image%202024-03-20%20at%2012.52.07%20AM.jpeg" alt="WhatsApp Image 2024-03-20 at 12.52.07 AM" style="width: 400px; margin-right: 10px;">
+  <img src="WhatsApp%20Image%202024-03-20%20at%2012.52.08%20AM%20(1).jpeg" alt="WhatsApp Image 2024-03-20 at 12.52.08 AM (1)" style="width: 400px; margin: 0 10px;">
+  <img src="WhatsApp%20Image%202024-03-20%20at%2012.52.08%20AM.jpeg" alt="WhatsApp Image 2024-03-20 at 12.52.08 AM" style="width: 400px; margin-left: 10px;">
 </div>
 
 ## Local Development
@@ -116,16 +107,16 @@ To run the Elder Patient Tracking System locally for development or testing purp
 5. Monitor the output to observe real-time fall detection alerts on your local machine.
 6. Optionally, you can simulate SMS alerts by configuring a virtual GSM module or by modifying the code to print messages instead.
 
-
-  
-
-
 ## Conclusion
+
 The Elder Patient Tracking System provides an innovative and reliable solution for monitoring and detecting falls among elderly individuals. By leveraging advanced technologies and comprehensive analysis, the system significantly enhances the safety and well-being of residents in retirement community settings.
 
 ## License
+
 This project is licensed under the MIT License.
 
 ## Contributors
--Ahamed Thaiyub A
--Jeyasundar R
+
+- Ahamed Thaiyub A
+- Jeyasundar R
+
