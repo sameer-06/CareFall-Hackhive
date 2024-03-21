@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+## numpy importing 
 from tensorflow.keras.models import load_model
 from serial import Serial, SerialException
 import time
