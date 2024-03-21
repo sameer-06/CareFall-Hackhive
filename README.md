@@ -67,6 +67,29 @@ The Elder Patient Tracking System comprises the following components:
 
 
 
+
+## Section files 
+
+### Section 1: Fall Detection and SMS Notification
+- **File(s):** `sec1.txt`
+- **Description:** This section focuses on implementing normal fall detection prediction and sending SMS notifications to a designated module.
+
+### Section 2: Custom Image Processing
+- **File(s):** *Additional files uploaded*
+- **Description:** This section addresses various issues encountered and their resolutions. It involves utilizing custom images for certain aspects of the project.
+
+### Section 3: OpenPose Integration and Lie Detection
+- **File(s):** *Additional files uploaded*
+- **Description:** Discusses the integration of OpenPose for pose detection and lie detection in video streams. It covers challenges faced and the solutions implemented.
+
+### Section 4: Full Model Deployment
+- **File(s):** *Additional files uploaded*
+- **Description:** This section marks the deployment of the full model. It likely incorporates all the functionalities developed in previous sections and may include optimizations or additional features.
+
+
+
+
+
   
   ## Test image and How it works 
 
