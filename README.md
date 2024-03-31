@@ -66,8 +66,6 @@ The Elder Patient Tracking System comprises the following components:
 - **File(s):** `sec1.txt`
 - **Description:** This section focuses on implementing normal fall detection prediction and sending SMS notifications to a designated module.
 
-[![Demo Video](https://github.com/Ahamedthaiyub/CareFall/raw/main/assets/98688617/372626a3-703d-4bc8-92a0-02fd83b3771a.png)](https://github.com/Ahamedthaiyub/CareFall-Hackhive/assets/98688617/8ef93350-e852-430e-834c-e81eebd73321)
-
 ### Section 2: Custom Image Processing
 - **File(s):** *Additional files uploaded*
 - **Description:** This section addresses various issues encountered and their resolutions. It involves utilizing custom images for certain aspects of the project.
@@ -115,8 +113,5 @@ The Elder Patient Tracking System provides an innovative and reliable solution f
 
 This project is licensed under the MIT License.
 
-## Contributors
 
-- Ahamed Thaiyub A
-- Jeyasundar R
 
