@@ -2,7 +2,7 @@
 
 ![Screenshot](img/Screenshot%202024-03-20%20010923.png)
 
-## Introduction
+## Introductiom
 
 The Elder Patient Tracking System (EPTS) is a sophisticated solution designed to monitor and detect instances of falls among elderly residents in retirement communities. Leveraging deep learning techniques and real-time video analysis, the system offers timely alerts to caregivers, ensuring swift intervention and assistance in case of fall events.
 
