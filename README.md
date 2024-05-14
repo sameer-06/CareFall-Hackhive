@@ -32,7 +32,7 @@ The Elder Patient Tracking System comprises the following components:
    - **Usage**: Execute the `evaluate.py` script to assess the accuracy and other performance metrics of the trained model.
 
 ## System Setup
-
+.
 1. **Dependencies Installation**:
    - Ensure all required dependencies are installed in your environment. Refer to the Dependencies section for details.
 
