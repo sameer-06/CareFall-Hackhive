@@ -1,0 +1,104 @@
+import cv2
+import numpy as np
+from tensorflow.keras.models import load_model
+
+# Load pre-trained disease detection model
+model = load_model('disease_detection_model.h5')
+
+# Define function to detect disease from image
+def detect_disease(image):
+    # Pre-process image
+    img = cv2.resize(image, (224, 224))
+    img = img / 255.0
+    
+    # Make predictions
+    predictions = model.predict(np.expand_dims(img, axis=0))
+    
+    # Return disease probability
+    return predictions[0][0]
+
+# Capture image from drone camera
+cap = cv2.VideoCapture(0)
+ret, frame = cap.read()
+cap.release()
+
+# Detect disease
+disease_probability = detect_disease(frame)
+
+if disease_probability > 0.5:
+    print("Disease detected!")
+else:
+    print("No disease detected.")
+
+
+#Disease Classification
+
+
+import cv2
+import numpy as np
+from tensorflow.keras.models import load_model
+
+# Load pre-trained disease classification model
+model = load_model('disease_classification_model.h5')
+
+# Define function to classify disease from image
+def classify_disease(image):
+    # Pre-process image
+    img = cv2.resize(image, (224, 224))
+    img = img / 255.0
+    
+    # Make predictions
+    predictions = model.predict(np.expand_dims(img, axis=0))
+    
+    # Return disease class
+    return np.argmax(predictions[0])
+
+# Capture image from drone camera
+cap = cv2.VideoCapture(0)
+ret, frame = cap.read()
+cap.release()
+
+# Classify disease
+disease_class = classify_disease(frame)
+
+if disease_class == 0:
+    print("Powdery mildew detected!")
+elif disease_class == 1:
+    print("Septoria leaf spot detected!")
+else:
+    print("Unknown disease detected.")
+
+
+#Autonomous Spraying
+
+
+import dronekit
+
+# Define spraying function
+def spray_drone(location):
+    # Connect to drone
+    vehicle = dronekit.connect('tcp:127.0.0.1:5760', wait_ready=True)
+    
+    # Arm drone
+    vehicle.armed = True
+    
+    # Set spraying mode
+    vehicle.parameters['Spraying_MODE'] = 1
+    
+    # Fly to location
+    vehicle.simple_goto(location)
+    
+    # Spray
+    vehicle.channels.overrides = {'5': 1500}  # PWM value for spraying
+    
+    # Disarm drone
+    vehicle.armed = False
+    
+    # Close connection
+    vehicle.close()
+
+# Detect disease location
+location = (37.7749, -122.4194)  # example location
+
+# Spray drone
+spray_drone(location)
